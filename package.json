@@ -1,5 +1,8 @@
 {
-  "version": "0.0.2",
+  "name": "sku-list-vitalaire",
+  "version": "1.0",
+  "private": true,
+  "license": "ISC",
   "devDependencies": {
     "@vtex/intl-equalizer": "^2.3.0",
     "husky": "^2.4.1"

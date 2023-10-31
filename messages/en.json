@@ -11,6 +11,7 @@
   "store/sku-list.seller.name.title": "Seller",
   "store/sku-list.sku.name.title": "Item Name",
   "store/sku-list.sku.price.title": "Price",
+  "store/sku-list.sku.price.id": "ID",
   "store/sku-list.sku.quantity-selector.title": "Select Quantity",
   "store/sku-list.seller.price.title": "Seller Price",
   "admin/editor.sku-list.highlights.title": "Item Highlights",

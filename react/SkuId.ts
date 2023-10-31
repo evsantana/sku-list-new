@@ -1,3 +1,3 @@
-import SkuId from './components/SkuName'
+import SkuId from './components/SkuId'
 
 export default SkuId

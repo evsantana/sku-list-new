@@ -9,7 +9,7 @@ import { Item } from '../typings'
 //   showLabel: boolean
 // }
 
-const SkuName = () => {
+const SkuId = () => {
   const { sku }: { sku: Item } = useSku()
   // const handles = useCssHandles(CSS_HANDLES)
   return (
@@ -19,4 +19,4 @@ const SkuName = () => {
   )
 }
 
-export default SkuName
+export default SkuId

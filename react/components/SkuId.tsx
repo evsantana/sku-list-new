@@ -1,18 +1,17 @@
 import React from 'react'
 import { useSku } from './SkuContext'
 import { Item } from '../typings'
-import { useCssHandles } from 'vtex.css-handles'
-import { FormattedMessage } from 'react-intl'
+// import { useCssHandles } from 'vtex.css-handles'
 
-const CSS_HANDLES = ['skuName'] as const
+// const CSS_HANDLES = ['skuName'] as const
 
-interface Props {
-  showLabel: boolean
-}
+// interface Props {
+//   showLabel: boolean
+// }
 
-const SkuName = ({ showLabel }: Props) => {
+const SkuName = () => {
   const { sku }: { sku: Item } = useSku()
-  const handles = useCssHandles(CSS_HANDLES)
+  // const handles = useCssHandles(CSS_HANDLES)
   return (
     <div>
       <span className="c-muted-1">{sku.itemId}</span>

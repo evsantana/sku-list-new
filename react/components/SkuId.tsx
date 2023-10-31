@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSku } from './SkuContext'
 import { Item } from '../typings'
+import { FormattedMessage } from 'react-intl'
 // import { useCssHandles } from 'vtex.css-handles'
 
 // const CSS_HANDLES = ['skuName'] as const

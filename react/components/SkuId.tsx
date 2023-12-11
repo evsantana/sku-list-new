@@ -20,7 +20,7 @@ const SkuId = ({ showLabel }: Props) => {
           <FormattedMessage id="store/sku-list.sku.price.id" />:{' '}
         </span>
       )}
-      <span className="c-muted-1">{sku.itemId}</span>
+      <span className="c-muted-1">{sku.referenceId}</span>
     </div>
   )
 }

@@ -23,11 +23,15 @@ export interface Item {
   sellers: Seller[]
   options?: BuyButtonItemOption[]
   variations: Variation[]
+  referenceId: ReferenceId[]
 }
 
 export interface Variation {
   name: string
   values: string[]
+}
+export interface ReferenceId {
+  Value: string[]
 }
 
 export interface LineItem {

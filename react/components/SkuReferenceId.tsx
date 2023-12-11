@@ -16,9 +16,6 @@ interface Props {
 const SkuReferenceId = ({ showLabel }: Props) => {
   const { sku }: { sku: Item } = useSku()
 
-  // const handles = useCssHandles(CSS_HANDLES)
-  console.log("sku.referenceId", sku.referenceId);
-
   return (
     <div>
       {showLabel && (

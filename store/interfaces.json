@@ -17,7 +17,8 @@
       "sku-buy-button",
       "sku-specifications",
       "sku-highlights",
-      "sku-id"
+      "sku-id",
+      "sku-reference-id"
     ]
   },
   "sku-content.desktop": {
@@ -31,6 +32,9 @@
   },
   "sku-id": {
     "component": "SkuId"
+  },
+  "sku-reference-id": {
+    "component": "SkuReferenceId"
   },
   "sku-price": {
     "component": "SkuPrice"

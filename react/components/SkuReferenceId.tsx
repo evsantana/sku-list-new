@@ -10,7 +10,7 @@ interface Props {
   showLabel: boolean
 }
 
-const SkuId = ({ showLabel }: Props) => {
+const SkuReferenceId = ({ showLabel }: Props) => {
   const { sku }: { sku: Item } = useSku()
   // const handles = useCssHandles(CSS_HANDLES)
   return (
@@ -20,9 +20,9 @@ const SkuId = ({ showLabel }: Props) => {
           <FormattedMessage id="store/sku-list.sku.price.id" />:{' '}
         </span>
       )}
-      <span className="c-muted-1">{sku.itemId}</span>
+      <span className="c-muted-1">{sku.referenceId}</span>
     </div>
   )
 }
 
-export default SkuId
+export default SkuReferenceId

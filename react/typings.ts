@@ -23,7 +23,7 @@ export interface Item {
   sellers: Seller[]
   options?: BuyButtonItemOption[]
   variations: Variation[]
-  referenceId: string
+  referenceId: ReferenceId[]
 }
 
 export interface Variation {

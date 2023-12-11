@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable prettier/prettier */
 import React from 'react'
 import { useSku } from './SkuContext'
 import { Item } from '../typings'
@@ -20,7 +22,12 @@ const SkuReferenceId = ({ showLabel }: Props) => {
           <FormattedMessage id="store/sku-list.sku.price.id" />:{' '}
         </span>
       )}
-      <span className="c-muted-1">{sku.referenceId}</span>
+      {sku.referenceId.map((ref:any) => (
+        <>
+          <span className="c-muted-1">{ref.Value}</span>
+        </>
+      ))}
+
     </div>
   )
 }

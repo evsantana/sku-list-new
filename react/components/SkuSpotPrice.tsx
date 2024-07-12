@@ -25,7 +25,7 @@ const SkuSpotPrice = ({ showLabel }: Props) => {
       className={`pt3 pb5 t-body c-muted-1 lh-copy ${handles.priceContainer}`}>
       {showLabel && (
         <span className="t-body c-on-base fw7 pr3">
-          <FormattedMessage id="store/sku-list.sku.price.title" />:{' '}
+          <FormattedMessage id="store/sku-list.sku.spot-price.title" />:{' '}
         </span>
       )}
       <span>
